@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ebc76b31-4b79-61fc-124d-11a377460f41}</ProjectGuid>
+    <ProjectGuid>{c8875aa2-c5f6-65aa-6a15-cd43450bbab6}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -327,13 +327,13 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -708,82 +708,82 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Environments">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Users\ProgramInmersys\Desktop\API REST\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>C:\Users\ProgramInmersys\Desktop\Rick and Morty\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

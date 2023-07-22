@@ -2,11 +2,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine.Networking;
 
 public class CharacterGridGenerator : MonoBehaviour
 {
-    public GameObject characterComponentPrefab;
+    public GameObject characterPrefab; // El prefab que contiene la imagen y los textos
     public APIManager apiManager;
     public Transform parentPanel;
 
@@ -20,16 +21,28 @@ public class CharacterGridGenerator : MonoBehaviour
         List<Character> characters = response.results;
         foreach (Character character in characters)
         {
-            GameObject characterComponent = Instantiate(characterComponentPrefab, parentPanel);
+            GameObject characterComponent = Instantiate(characterPrefab, parentPanel);
             Image imageComponent = characterComponent.GetComponent<Image>();
             imageComponent.sprite = null; // Establecer una imagen vacía temporalmente
             
             StartCoroutine(LoadImageFromURL(character.image, imageComponent));
-            
-            characterComponent.transform.SetParent(parentPanel, false);
+
+            // Obtener referencias a los objetos de texto dentro del prefab
+            TextMeshProUGUI[] texts = characterComponent.GetComponentsInChildren<TextMeshProUGUI>();
+            foreach (TextMeshProUGUI text in texts)
+            {
+                if (text.gameObject.name == "Name Text")
+                {
+                    text.text = character.name;
+                }
+                else if (text.gameObject.name == "ID Text")
+                {
+                    text.text = "ID: " + character.id;
+                }
+            }
         }
     }
-
+    
     private IEnumerator LoadImageFromURL(string imageUrl, Image imageComponent)
     {
         UnityWebRequest www = UnityWebRequestTexture.GetTexture(imageUrl);
@@ -46,4 +59,6 @@ public class CharacterGridGenerator : MonoBehaviour
             Debug.LogError("Error al cargar la imagen desde la URL: " + www.error);
         }
     }
+
+    
 }
